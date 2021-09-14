@@ -1,23 +1,16 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Text.Json;
-using System.Threading.Tasks;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.HttpsPolicy;
-using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
 
 namespace OrderRideService
 {
     public class Startup
     {
-        private readonly JsonSerializerOptions options = new JsonSerializerOptions()
+        private readonly JsonSerializerOptions _options = new JsonSerializerOptions()
         {
             PropertyNameCaseInsensitive = true,
             PropertyNamingPolicy = JsonNamingPolicy.CamelCase,
@@ -35,7 +28,7 @@ namespace OrderRideService
         {
             services.AddDaprClient(client =>
             {
-                client.UseJsonSerializationOptions(options);
+                client.UseJsonSerializationOptions(_options);
             });
             services.AddControllers().AddDapr();
             services.AddSwaggerGen(c =>
