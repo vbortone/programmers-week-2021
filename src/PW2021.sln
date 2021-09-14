@@ -4,6 +4,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderRideService", "OrderRi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DriverLocationService", "DriverLocationService\DriverLocationService.csproj", "{C302A735-442E-4799-B1B7-1D423C15594E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserService", "UserService\UserService.csproj", "{7016E69B-3789-4CD4-8D2A-32E80DBC2E73}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{C302A735-442E-4799-B1B7-1D423C15594E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C302A735-442E-4799-B1B7-1D423C15594E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C302A735-442E-4799-B1B7-1D423C15594E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7016E69B-3789-4CD4-8D2A-32E80DBC2E73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7016E69B-3789-4CD4-8D2A-32E80DBC2E73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7016E69B-3789-4CD4-8D2A-32E80DBC2E73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7016E69B-3789-4CD4-8D2A-32E80DBC2E73}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
