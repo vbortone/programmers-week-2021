@@ -1,0 +1,11 @@
+{
+  "userId": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+  "startingStreetAddress": "1166 6th Ave",
+  "startingCity": "New York",
+  "startingState": "NY",
+  "startingZipCode": "10036",
+  "destinationStreetAddress": "45 Wall St",
+  "destinationCity": "New York",
+  "destinationState": "NY",
+  "destinationZipCode": "10005"
+}

@@ -33,12 +33,16 @@ extensions:
 services:
 - name: orderrideservice
   project: OrderRideService/OrderRideService.csproj
+- name: driverlocationservice
+  project: DriverLocationService/DriverLocationService.csproj
+- name: userservice
+  project: UserService/UserService.csproj
 
 # This may conflict with the redis instance that dapr manages.
 #
 # Doing a `docker ps` can show if its already running. If that's the case
 # then comment out out when running locally.
-#- name: redis
-#  image: redis
-#  bindings:
-#  - port: 6379
+# - name: redis
+#   image: redis
+#   bindings:
+#   - port: 6379

@@ -5,8 +5,6 @@ namespace OrderRideService.Commands
     public class OrderRideCommand
     {
         public Guid UserId { get; set; }
-        public string FirstName { get; set; }
-        public string LastName { get; set; }
         public string StartingStreetAddress { get; set; }
         public string StartingCity { get; set; }
         public string StartingState { get; set; }
