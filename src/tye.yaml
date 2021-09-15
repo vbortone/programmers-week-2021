@@ -6,6 +6,9 @@
 #
 name: pw2021
 extensions:
+#- name: seq
+#  logPath: ./.logs
+
 - name: dapr
 
   # If you want to use a different tag or container port
